@@ -1,10 +1,21 @@
 {
-  "name": "root",
+  "name": "@PRIRE/root",
   "private": true,
+  "type": "module",
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+      "build": "npx lerna run build --scope='PRIRE' --sort",
+      "postbuild": "lerna link"
+  },
   "devDependencies": {
     "lerna": "^5.5.0"
-  }
+  },
+  "version": "1.0.0",
+  "description": "Partially Reactive Island Renderer Engine (PRIRE) is a frontend micro-framework for WebRM",
+  "main": "index.js",
+  "repository": "https://github.com/0x-os/PRIRE.git",
+  "author": "0xa48rx394r83e9 <Joseph.paulmer24@stu.dulwich.org>",
+  "license": "AGPL-3.0"
 }
