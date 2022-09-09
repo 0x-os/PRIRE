@@ -1,6 +1,8 @@
 import { VNode } from './VNode';
 import { RenderableProps, ErrorInfo } from './base';
 
+// Component Interface
+
 export type ComponentChild = VNode<any> | string | number | bigint | boolean | object | undefined | null;
 export type ComponentChildren = ComponentChild[] | ComponentChild;
 export type ComponentType<P = {}> = ComponentClass<P> | FunctionComponent<P>;
