@@ -1,5 +1,5 @@
 # PRIRE
-Partially Reactive Island Renderer Engine (PRIRE) is a frontend micro-framework for WebRM
+Partially Reactive Island Rendering Engine (PRIRE) is a frontend micro-framework for WebRM
 
 - react components
 - partial hydration
