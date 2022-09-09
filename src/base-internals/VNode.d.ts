@@ -1,0 +1,2 @@
+export interface VNode<P = {}> {
+}
