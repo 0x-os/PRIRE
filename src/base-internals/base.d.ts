@@ -1,3 +1,5 @@
+import { ComponentChildren } from './ComponentInterface';
+
 export type Key = string | number | any;
 export type RefObject<T> = { current: T | null };
 export type RefCallback<T> = ( instance: T | null ) => null;

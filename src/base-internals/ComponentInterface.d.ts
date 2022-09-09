@@ -1,4 +1,5 @@
-import VNode from './VNode.d.ts';
+import { VNode } from './VNode';
+import { RenderableProps, ErrorInfo } from './base';
 
 export type ComponentChild = VNode<any> | string | number | bigint | boolean | object | undefined | null;
 export type ComponentChildren = ComponentChild[] | ComponentChild;
