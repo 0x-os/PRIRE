@@ -18,4 +18,11 @@ export interface ErrorInfo {
     componentStack?: string;
 }
 
-export type RenderableProps<P, RefType = any> P & Readonly<Attributes & { children: ComponentChildren; red?: Ref<RefType>}>;
+export type RenderableProps<P, RefType = any> = P & Readonly<Attributes & { children?: ComponentChildren; ref?: Ref<RefType> }>;
+
+export interface prireDOMAttributes {
+    children?: ComponentChildren;
+    dangerouslySetInnerHTML?: {
+        __html: string;
+    };
+}
