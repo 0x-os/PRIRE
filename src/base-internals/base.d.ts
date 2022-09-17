@@ -26,3 +26,5 @@ export interface prireDOMAttributes {
         __html: string;
     };
 }
+
+export const Fragment: FunctionComponent<{}>;
