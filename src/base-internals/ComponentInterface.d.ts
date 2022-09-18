@@ -1,7 +1,10 @@
 import { VNode } from './VNode';
 import { RenderableProps, ErrorInfo } from './base';
+import { JSXInternal } from './jsx';
 
 // Component Interface
+
+export import JSX = JSXInternal;
 
 export type ComponentChild = VNode<any> | string | number | bigint | boolean | object | undefined | null;
 export type ComponentChildren = ComponentChild[] | ComponentChild;
