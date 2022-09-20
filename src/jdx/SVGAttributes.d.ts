@@ -56,7 +56,7 @@ export interface SVGAttributes<Target extends EventTarget = SVGElement> extends 
 	fill?: 							string;
 	fillOpacity?: 					number | string;
 	fillRule?: 						'nonzero' | 'evenodd' | 'inherit';
-	filter?: 					string;
+	filter?: 					    string;
 	filterRes?: 					number | string;
 	filterUnits?: 					number | string;
 	floodColor?: 					number | string;
