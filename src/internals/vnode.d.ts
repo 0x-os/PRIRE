@@ -1,4 +1,4 @@
-import * as prire from '../base-internals';
+import * as prire from '../base-internals/index';
 import { prireElement } from './other';
 
 export interface VNode<P = {}> extends prire.VNode<P> {

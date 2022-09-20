@@ -1,4 +1,4 @@
-import * as prire from '../base-internals/';
+import * as prire from '../base-internals/index';
 import { prireContext, prireElement } from './other';
 
 export type ComponentChild =

@@ -1,4 +1,4 @@
-import * from '../base-internals';
+import * from '../base-internals/index';
 
 export interface Options extends prire.Options {
 	_root?(

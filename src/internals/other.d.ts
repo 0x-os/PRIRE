@@ -1,4 +1,4 @@
-import * as prire from '../base-internals';
+import * as prire from '../base-internals/index';
 
 type RefObject<T> = { current: T | null };
 type RefCallback<T> = { (instance: T | null): void; current: undefined };
