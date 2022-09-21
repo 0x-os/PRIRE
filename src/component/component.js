@@ -38,3 +38,16 @@ Component.prototype.setState = function(update, callback) {
 		enqueueRender(this);
 	}
 };
+
+/**
+ * Immediately perform a synchronous re-render of the component
+ * @this {import('./internal').Component}
+ * @param {() => void} [callback] A function to be called after component is re-rendered
+ */
+Component.prototype.forceUpdate = function(callback) {
+	if (this._vnode) {
+		this._force = true;
+		if (callback) this._renderCallbacks.push(callback);
+		enqueueRender(this);
+	}
+};
