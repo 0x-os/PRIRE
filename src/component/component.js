@@ -41,7 +41,7 @@ Component.prototype.setState = function(update, callback) {
 
 /**
  * Immediately perform a synchronous re-render of the component
- * @this {import('./internal').Component}
+ * @this {import('../internals/').Component}
  * @param {() => void} [callback] A function to be called after component is re-rendered
  */
 Component.prototype.forceUpdate = function(callback) {
