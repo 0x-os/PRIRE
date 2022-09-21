@@ -1,5 +1,6 @@
 /**
  * Trigger in-place re-rendering of a component.
+ *
  * @param {import('../internals/').component} component The component to rerender
  */
 function renderComponent(component) {
