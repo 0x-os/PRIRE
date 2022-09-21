@@ -51,3 +51,5 @@ Component.prototype.forceUpdate = function(callback) {
 		enqueueRender(this);
 	}
 };
+
+Component.prototype.render = Fragment;
