@@ -1,3 +1,5 @@
+import { commitRoot } from '../diff/index':
+
 /**
  * Trigger in-place re-rendering of a component.
  *
